@@ -1,0 +1,28 @@
+=== Description
+
+Proof of concept for creating a CMDB based on a Graph database with a simple web frontent
+
+=== How To
+
+  this requires your neo4j server to be online and local (on localhost:7474)
+  git clone git@github.com:atzedevries/neocmdb.git
+  cd neocmdb
+  bundle install
+  chmod +x ./create_data.rb
+  ./create_data.rb
+  rackup
+
+Then visit http://localhost:9292/ to see the examples.
+
+
+=== Requirements
+
+* Ruby 1.9.2+
+* Neo4j
+
+=== Links
+
+* {Neo4j Community}[http://neo4j.org]
+* {D3.js}[http://mbostock.github.com/d3/]
+* {Naturalis} [http://www.naturalis.nl]
+* {Naturalis Github} [http://www.github.com/naturalis]
