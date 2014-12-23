@@ -12,7 +12,7 @@ Proof of concept for creating a CMDB based on a Graph database with a simple web
   ./create_data.rb
   rackup
 
-Then visit http://localhost:9292/ to see the examples.
+Then visit http://localhost:9292 to see the examples.
 
 
 === Requirements
